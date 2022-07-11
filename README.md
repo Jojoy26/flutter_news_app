@@ -1,16 +1,6 @@
-# flutter_news_app
+# App de notícias feito em flutter
 
-A new Flutter project.
+## App feito flutter em usando os conceitos de clean architecture e clean code
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Video de demonstração
+https://user-images.githubusercontent.com/92484797/178376612-184e25d3-db93-4f2d-b3fb-2ca04b6c7c9f.mp4
