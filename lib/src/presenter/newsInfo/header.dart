@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_news_app/src/domain/entities/news.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:jiffy/jiffy.dart';
 
 class Header extends StatelessWidget {
   final News news;
@@ -66,7 +67,7 @@ class Header extends StatelessWidget {
           bottom: 20,
           left: 18,
           child: Text(
-            '4 hour ago',
+            '${Jiffy(news.publishedAt).fromNow()}',
             style: GoogleFonts.inter(
               fontSize: 16,
               color: Color(0xFFEEEEEE),
